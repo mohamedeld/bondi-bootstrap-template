@@ -123,3 +123,13 @@ body{
 .description{
     max-width: 700px;
 }
+.our-team{
+    background-color: var(--section-color);
+
+}
+.our-team h2{
+    color:var(--yellow-color);
+}
+.our-team .box h4{
+    background-color:var(--green-color);
+}
