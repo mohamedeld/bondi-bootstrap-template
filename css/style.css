@@ -136,3 +136,20 @@ body{
 .project{
     background-color: var(--dark-color);
 }
+.subscribe{
+    background-color:var(--yellow-color);
+}
+.subscribe input[type="text"]{
+    border:none;
+    border-bottom: 1px solid #fff;
+}
+.subscribe input[type="text"]:focus{
+    outline:none;
+}
+.subscribe::placeholder{
+    color:#fff;
+}
+.subscribe input[type="submit"]{
+    background-color: var(--dark-color);
+    color:var(--yellow-color);
+}
